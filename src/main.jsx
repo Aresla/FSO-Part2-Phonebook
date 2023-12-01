@@ -5,13 +5,13 @@ import './index.css'
 import axios from 'axios'
 
 
-axios.get('http://localhost:3001/persons').then(response => { 
+//axios.get('http://localhost:3001/persons').then(response => { 
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
       <App />
     </React.StrictMode>,
   )
-})
+//})
 
 
 
